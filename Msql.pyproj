@@ -22,6 +22,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Msql.py" />
+    <Compile Include="вчителі.py" />
+    <Compile Include="группи.py" />
+    <Compile Include="Кафедраpy.py" />
+    <Compile Include="класс1.py" />
+    <Compile Include="факультети.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
