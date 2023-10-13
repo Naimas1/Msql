@@ -1,6 +1,16 @@
-class my_class(object):
-    pass
+CREATE TABLE Teachers (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    EmploymentDate DATE NOT NULL,
+    Name NVARCHAR(MAX) NOT NULL,
+    Premium MONEY NOT NULL DEFAULT 0,
+    Salary MONEY NOT NULL,
+    Surname NVARCHAR(MAX) NOT NULL
+);
 
+ALTER TABLE Teachers
+ADD CONSTRAINT CHK_EmploymentDate CHECK (EmploymentDate >= '1990-01-01'),
+ADD CONSTRAINT CHK_Premium CHECK (Premium >= 0),
+ADD CONSTRAINT CHK_Salary CHECK (Salary > 0);
 
 
 

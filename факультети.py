@@ -1,6 +1,6 @@
-class my_class(object):
-    pass
-
-
+CREATE TABLE Faculties (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+   
+);
 
 

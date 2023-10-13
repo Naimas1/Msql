@@ -22,11 +22,20 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Msql.py" />
+    <Compile Include="асистент.py" />
     <Compile Include="вчителі.py" />
+    <Compile Include="гроші.py" />
     <Compile Include="группи.py" />
+    <Compile Include="дата працевлаштування.py" />
     <Compile Include="Кафедраpy.py" />
     <Compile Include="класс1.py" />
+    <Compile Include="курс.py" />
+    <Compile Include="назва.py" />
+    <Compile Include="премія.py" />
+    <Compile Include="рейтинг.py" />
+    <Compile Include="ставка.py" />
     <Compile Include="факультети.py" />
+    <Compile Include="фамілія.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

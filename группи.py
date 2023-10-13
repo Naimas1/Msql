@@ -1,6 +1,8 @@
-class my_class(object):
-    pass
-
+CREATE tables Group 
+(
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    
+);
 
 
 
